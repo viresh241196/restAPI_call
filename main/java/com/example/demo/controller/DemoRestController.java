@@ -14,13 +14,6 @@ public class DemoRestController {
 	public String sayHello() {
 	return "Hello from Bridgelabz!"; 
 		}
-	
-	@GetMapping("/hello1")
-	public String hello1(@RequestParam(name="name", required = false, defaultValue = "default") String name)
-	{
-	return "Hello " + name;
-	}
-
 }
 	
 
